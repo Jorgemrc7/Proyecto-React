@@ -1,0 +1,26 @@
+.mi-boton{
+    background: rgb(32, 231, 131);
+    padding: 1vh;
+    font-size: 12px;
+    margin: 3px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.mi-boton:hover{
+    background: rgb(123, 133, 131);
+}
+.mi-boton:active{
+    background-color: rgb(7, 209, 44);
+}
+.mi-boton.warning{
+    background: blue;
+}
+.mi-boton.warning:hover{
+    background: rgb(126, 126, 176);
+}
+.mi-boton.warning:active{
+    background: rgb(255, 255, 255);
+}
